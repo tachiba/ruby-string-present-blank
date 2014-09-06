@@ -1,0 +1,2 @@
+ruby-string-present-blank
+=========================

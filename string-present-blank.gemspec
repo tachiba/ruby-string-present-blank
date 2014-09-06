@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Takashi Chiba"]
   spec.email         = ["contact@takashi.me"]
   spec.summary       = %q{Provides String#present and String#blank.}
-  spec.homepage      = "http://takashi.me"
+  spec.homepage      = "https://github.com/tachiba/ruby-string-present-blank"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
-  spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "minitest"
+  spec.add_development_dependency 'bundler', '~> 1.6'
+  spec.add_development_dependency 'rake', '~> 0'
+  spec.add_development_dependency 'minitest', '~> 0'
 end

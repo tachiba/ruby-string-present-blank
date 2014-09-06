@@ -1,4 +1,4 @@
-require "minitest/autorun"
+require 'minitest/autorun'
 require 'string-present-blank'
 
 class TestString < MiniTest::Unit::TestCase

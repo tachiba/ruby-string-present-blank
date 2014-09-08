@@ -1,5 +1,6 @@
 require 'minitest/autorun'
-require 'string-present-blank'
+require 'string_present_blank'
+require 'string-present-blank' # raises no error
 
 class TestString < MiniTest::Unit::TestCase
   def test_present

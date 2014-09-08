@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'string_present_blank'
 require 'string-present-blank' # raises no error
 
-class TestString < MiniTest::Unit::TestCase
+class TestString < Minitest::Test
   def test_present
     assert_equal 'hogehoge', 'hogehoge'.present
     assert_equal 'hogehoge', 'hogehoge'.present(if: true)

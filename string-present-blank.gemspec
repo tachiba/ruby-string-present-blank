@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Takashi Chiba"]
   spec.email         = ["contact@takashi.me"]
   spec.summary       = %q{Provides String#present and String#blank.}
-  spec.homepage      = "https://github.com/tachiba/ruby-string-present-blank"
-  spec.license       = "MIT"
+  spec.homepage      = 'https://github.com/tachiba/ruby-string-present-blank'
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

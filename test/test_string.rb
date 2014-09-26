@@ -8,6 +8,8 @@ class TestString < Minitest::Test
     assert_equal 'hogehoge', 'hogehoge'.present(if: true)
     assert_equal 'hogehoge', 'hogehoge'.present(unless: false)
 
+    assert_equal '', 'hogehoge'.present(if: nil)
+
     assert_equal '', 'hogehoge'.present(if: false)
     assert_equal '', 'hogehoge'.present(unless: true)
   end
@@ -16,6 +18,8 @@ class TestString < Minitest::Test
     assert_equal '', 'hogehoge'.blank
     assert_equal '', 'hogehoge'.blank(if: true)
     assert_equal '', 'hogehoge'.blank(unless: false)
+
+    assert_equal 'hogehoge', 'hogehoge'.present(unless: nil)
 
     assert_equal 'hogehoge', 'hogehoge'.blank(if: false)
     assert_equal 'hogehoge', 'hogehoge'.blank(unless: true)

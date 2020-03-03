@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "string-present-blank"
   spec.version       = StringPresentBlank::VERSION
   spec.authors       = ["Takashi Chiba"]
-  spec.email         = ["contact@takashi.me"]
+  spec.email         = ["contact@tachiba.jp"]
   spec.summary       = %q{Provides String#present and String#blank.}
   spec.homepage      = 'https://github.com/tachiba/ruby-string-present-blank'
   spec.license       = 'MIT'

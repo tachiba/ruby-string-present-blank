@@ -1,19 +1,22 @@
 PATH
   remote: .
   specs:
-    string-present-blank (0.0.1)
+    string-present-blank (0.0.3)
 
 GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.4.1)
-    rake (10.3.2)
+    rake (12.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.6)
-  minitest
-  rake
+  bundler (~> 2.1)
+  minitest (~> 5.4)
+  rake (~> 12.3)
   string-present-blank!
+
+BUNDLED WITH
+   2.1.4
